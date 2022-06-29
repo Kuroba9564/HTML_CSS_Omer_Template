@@ -27,12 +27,14 @@ p{
 
 ul{
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 .container {
-  /* padding-left: 15px;
+  padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
-  margin-right: auto; */
+  margin-right: auto;
 }
 /* Small */
 @media(min-width: 768px){
@@ -43,7 +45,7 @@ ul{
 /* Medium */
 @media(min-width:992px){
   .container{
-    width: 790px;
+    width: 970px;
   }
 }
 /* Large */
@@ -968,6 +970,11 @@ ul{
   width: 95px;
   transition: var(--main-transition);
 }
+@media (max-width:991px) {
+  .eventes .info .time .unit{
+    width: 80px;
+  }
+}
 .eventes .info .time .unit span {
   display: block;
     transition: var(--main-transition);
@@ -978,6 +985,11 @@ ul{
   color: var(--main-color);
   font-weight: bold;
 } 
+@media (max-width:991px) {
+  .eventes .info .time .unit span:first-child {
+    font-size: 27px;
+  }
+}
 .eventes .info .time .unit span:last-child {
   padding: 8px 10px;
   font-size: 13px;
@@ -1395,6 +1407,7 @@ ul{
   border: none;
   cursor: pointer;
   transition: var(--main-transition);
+  margin-bottom: 35px;
 }
 .discount .form[type="submit"]:hover {
   background-color: var(--main-color-alt);
