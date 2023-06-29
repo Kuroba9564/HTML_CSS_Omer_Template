@@ -24,11 +24,12 @@ git clone https://github.com/OMAR9564/HTML_CSS_Omer_Template.git
 ```
 cd HTML_CSS_Omer_Template
 ```
-    1. index.html dosyasını bir web tarayıcısıyla açın ve şablonun nasıl göründüğünü inceleyin.
 
-    2. İhtiyaçlarınıza göre HTML ve CSS dosyalarını düzenleyin ve özelleştirin.
+- index.html dosyasını bir web tarayıcısıyla açın ve şablonun nasıl göründüğünü inceleyin.
 
-    3. Web sayfanızı yayınlamak için şablonu bir web sunucusuna yükleyin veya yerel olarak çalıştırın.
+- İhtiyaçlarınıza göre HTML ve CSS dosyalarını düzenleyin ve özelleştirin.
+
+- Web sayfanızı yayınlamak için şablonu bir web sunucusuna yükleyin veya yerel olarak çalıştırın.
 
 ## Özelleştirme
 
